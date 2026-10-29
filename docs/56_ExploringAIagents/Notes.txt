@@ -1,0 +1,100 @@
+AI Tools
+-----------
+
+LLMs( Large Language Models)
+	GPT 
+	Deep seek
+	Gemini
+	Nvidia
+	etc..
+
+	LLM's can only think.
+	It has brain.
+
+
+Agents : Can perform the action based on our instructions and context, skills (txt / .md)
+
+Instruction - Query/statements does not have proper structure
+prompt  - Query/statement which has structured  --> input, process, outcome etc...
+context -  context is some additional instructions provided along with prompt
+
+skill - Pre-defined skills/techniques/ add to the agents. 
+
+
+MCP   - Model Context Protocol
+	 connector
+
+
+* LLM - Think
+* Agent - Act
+* MCP - Connect
+
+
+
+Claude Code  - Coding Agent
+
+GitHub Copilot - Coding Agent
+Codex - Coding Agent
+OpenCode - Coding Agent 
+Command Code - Coding Agent
+OpenRouter  - API 
+Google Antigravity - IDE ( Alternative of VS Code / Cloned version of VS Code)
+
+
+Caveman for saving Tokens
+-----
+https://github.com/juliusbrussee/caveman
+https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md
+
+
+Framework
+----------------
+Organizing /managing project related files in structured manner.
+
+- Re-useability
+- Maintainability
+- Flexibility
+
+- readable and more user friendly
+
+
+Hybrid framework  ---> combining of multiple things/technologies
+
+
+Playwright
+-------------------
+1) Playwright MCP  ---> Use snapshots ( fetch complete DOM)
+			Consume more number of tokens..
+* We Need to provide context.
+
+2) Playwright Agents --> test Planner, Test Generator, Test Healer
+
+*Internally use MCP
+*You will get context./skills
+
+
+3) Playwright CLI  --> Trending & powerful
+
+CLI mode --> commands
+it will consume less tokens. 
+
+Generate automation tests, execute and heal.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

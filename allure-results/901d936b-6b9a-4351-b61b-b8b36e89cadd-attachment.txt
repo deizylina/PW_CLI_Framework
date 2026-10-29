@@ -1,0 +1,2 @@
+Navigated to application URL
+✅ Logout Flow completed successfully!

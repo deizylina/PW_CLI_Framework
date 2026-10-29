@@ -1,0 +1,242 @@
+<testsuites id="" name="" tests="36" failures="0" skipped="0" errors="0" time="6.017203000000001">
+<testsuite name="api\auth.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="2" failures="0" skipped="0" time="1.284" errors="0">
+<testcase name="Authentication API Tests › POST - Login with valid credentials @master @sanity @api" classname="api\auth.spec.ts" time="0.662">
+<system-out>
+<![CDATA[✅ Login API test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Authentication API Tests › POST - Login with invalid credentials @master @regression @api" classname="api\auth.spec.ts" time="0.622">
+<system-out>
+<![CDATA[✅ Invalid login API test completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api\carts.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="10" failures="0" skipped="0" time="3.898" errors="0">
+<testcase name="Carts API Tests › GET - All Carts @master @sanity @api" classname="api\carts.spec.ts" time="0.52">
+<system-out>
+<![CDATA[✅ Get all carts test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - Cart by ID @master @regression @api" classname="api\carts.spec.ts" time="0.617">
+<system-out>
+<![CDATA[✅ Get cart by ID test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - Carts by Date Range @master @regression @api" classname="api\carts.spec.ts" time="0.527">
+<system-out>
+<![CDATA[✅ Get carts by date range test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - User Cart @master @regression @api" classname="api\carts.spec.ts" time="0.547">
+<system-out>
+<![CDATA[✅ Get user cart test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - Carts with Limit @master @regression @api" classname="api\carts.spec.ts" time="0.475">
+<system-out>
+<![CDATA[✅ Get carts with limit test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - Sort Carts Ascending @master @regression @api" classname="api\carts.spec.ts" time="0.543">
+<system-out>
+<![CDATA[✅ Sort carts ascending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › GET - Sort Carts Descending @master @regression @api" classname="api\carts.spec.ts" time="0.232">
+<system-out>
+<![CDATA[✅ Sort carts descending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › POST - Create Cart @master @regression @api" classname="api\carts.spec.ts" time="0.122">
+<system-out>
+<![CDATA[✅ Create cart test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › PUT - Update Cart @master @regression @api" classname="api\carts.spec.ts" time="0.119">
+<system-out>
+<![CDATA[✅ Update cart test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Carts API Tests › DELETE - Delete Cart @master @regression @api" classname="api\carts.spec.ts" time="0.196">
+<system-out>
+<![CDATA[✅ Delete cart test completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api\crudWorkflows.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="3" failures="0" skipped="0" time="1.193" errors="0">
+<testcase name="End-to-End CRUD Workflow Tests › Product CRUD Workflow @master @end-to-end @api" classname="api\crudWorkflows.spec.ts" time="0.283">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ Product CRUD workflow completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="End-to-End CRUD Workflow Tests › User CRUD Workflow @master @end-to-end @api" classname="api\crudWorkflows.spec.ts" time="0.531">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ User CRUD workflow completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="End-to-End CRUD Workflow Tests › Cart CRUD Workflow @master @end-to-end @api" classname="api\crudWorkflows.spec.ts" time="0.379">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ Cart CRUD workflow completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api\products.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="10" failures="0" skipped="0" time="1.442" errors="0">
+<testcase name="Products API Tests › GET - All Products @master @sanity @api" classname="api\products.spec.ts" time="0.187">
+<system-out>
+<![CDATA[✅ Get all products test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - Product by ID @master @regression @api" classname="api\products.spec.ts" time="0.147">
+<system-out>
+<![CDATA[✅ Get product by ID test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - Products with Limit @master @regression @api" classname="api\products.spec.ts" time="0.137">
+<system-out>
+<![CDATA[✅ Get products with limit test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - Sort Products Ascending @master @regression @api" classname="api\products.spec.ts" time="0.166">
+<system-out>
+<![CDATA[✅ Sort products ascending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - Sort Products Descending @master @regression @api" classname="api\products.spec.ts" time="0.158">
+<system-out>
+<![CDATA[✅ Sort products descending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - All Categories @master @regression @api" classname="api\products.spec.ts" time="0.132">
+<system-out>
+<![CDATA[✅ Get all categories test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › GET - Products by Category @master @regression @api" classname="api\products.spec.ts" time="0.159">
+<system-out>
+<![CDATA[✅ Get products by category test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › POST - Create Product @master @regression @api" classname="api\products.spec.ts" time="0.111">
+<system-out>
+<![CDATA[✅ Create product test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › PUT - Update Product @master @regression @api" classname="api\products.spec.ts" time="0.118">
+<system-out>
+<![CDATA[✅ Update product test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Products API Tests › DELETE - Delete Product @master @regression @api" classname="api\products.spec.ts" time="0.127">
+<system-out>
+<![CDATA[✅ Delete product test completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api\schemaValidation.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="3" failures="0" skipped="0" time="0.945" errors="0">
+<testcase name="JSON Schema Validation Tests › GET - Product Response Schema @master @regression @api" classname="api\schemaValidation.spec.ts" time="0.241">
+<system-out>
+<![CDATA[✅ Product response schema validation test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="JSON Schema Validation Tests › GET - User Response Schema @master @regression @api" classname="api\schemaValidation.spec.ts" time="0.321">
+<system-out>
+<![CDATA[✅ User response schema validation test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="JSON Schema Validation Tests › GET - Cart Response Schema @master @regression @api" classname="api\schemaValidation.spec.ts" time="0.383">
+<system-out>
+<![CDATA[✅ Cart response schema validation test completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api\users.spec.ts" timestamp="2026-10-12T07:55:37.224Z" hostname="chromium" tests="8" failures="0" skipped="0" time="1.878" errors="0">
+<testcase name="Users API Tests › GET - All Users @master @sanity @api" classname="api\users.spec.ts" time="0.232">
+<system-out>
+<![CDATA[✅ Get all users test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › GET - User by ID @master @regression @api" classname="api\users.spec.ts" time="0.258">
+<system-out>
+<![CDATA[✅ Get user by ID test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › GET - Users with Limit @master @regression @api" classname="api\users.spec.ts" time="0.231">
+<system-out>
+<![CDATA[✅ Get users with limit test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › GET - Sort Users Ascending @master @regression @api" classname="api\users.spec.ts" time="0.22">
+<system-out>
+<![CDATA[✅ Sort users ascending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › GET - Sort Users Descending @master @regression @api" classname="api\users.spec.ts" time="0.229">
+<system-out>
+<![CDATA[✅ Sort users descending test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › POST - Create User @master @regression @api" classname="api\users.spec.ts" time="0.362">
+<system-out>
+<![CDATA[✅ Create user test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › PUT - Update User @master @regression @api" classname="api\users.spec.ts" time="0.131">
+<system-out>
+<![CDATA[✅ Update user test completed successfully!
+]]>
+</system-out>
+</testcase>
+<testcase name="Users API Tests › DELETE - Delete User @master @regression @api" classname="api\users.spec.ts" time="0.215">
+<system-out>
+<![CDATA[✅ Delete user test completed successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

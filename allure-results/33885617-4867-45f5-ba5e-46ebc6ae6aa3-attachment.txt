@@ -1,0 +1,2 @@
+Navigated to application URL
+✅ Add Product to Cart completed successfully!

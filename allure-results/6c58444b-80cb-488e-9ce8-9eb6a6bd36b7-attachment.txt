@@ -1,0 +1,1 @@
+✅ Sort products ascending test completed successfully!

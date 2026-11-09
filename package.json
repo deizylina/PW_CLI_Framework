@@ -1,28 +1,24 @@
 {
-  "name": "opencartplaywright",
+  "name": "playwright_opencart_ai",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test:master": "playwright test --grep @master", 
-    "test:sanity": "playwright test --grep @sanity", 
-    "test:regression": "playwright test --grep @regression", 
-    "test:datadriven": "playwright test --grep @datadriven", 
-    "test:master:headed": "playwright test --grep @master --headed", 
-     "test:end-to-end": "playwright test --grep @end-to-end --headed", 
-    "test:sanity:debug": "playwright test --grep @sanity --debug" 
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.23",
-    "allure-playwright": "^3.2.2"
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
   },
   "dependencies": {
-    "@faker-js/faker": "^9.8.0",
-    "csv-parse": "^5.6.0",
+    "@axe-core/playwright": "^4.13.0",
+    "@faker-js/faker": "^10.6.0",
+    "ajv": "^8.20.0",
+    "allure-playwright": "^3.13.0",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.6",
+    "luxon": "^3.7.2",
+    "mysql2": "^3.24.5",
     "xlsx": "^0.18.5"
   }
 }
